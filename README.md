@@ -113,5 +113,5 @@ You can test the backend using Postman or cURL by sending requests to the API en
 Example for Check-In:
 
 ``` bash
-curl -X POST http://localhost:8080/api/tickets/checkin -H "Content-Type: application/j
+curl -X POST http://localhost:8080/api/tickets/checkin -H "Content-Type: application/json" -d '{"plateNumber":"ABC1234"}'
 ```
